@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.mainHeadingBanner {
+  width: 100vw;
+  height: 160px;
+  background-color: #945f4a;
+}
+
+.mainHeading {
+  padding-top: 50px;
+  margin-left: 5%;
+  font-size: 50px;
+  color: white;
+}
+
+.startBtn {
+  padding-top: 400px;
+  text-align: center;
+}
+
+.startBtn a {
+  color: black;
+  background-color: lightgray;
+  font-size: 24px;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.startBtn a:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
+
+@media (max-height: 835px) {
+  .mainHeadingBanner {
+    height: 100px;
+  }
+
+  .mainHeading {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-height: 750px) {
+  .startBtn {
+    padding-top: 200px;
+  }
+}
+
+@media (max-height: 450px) {
+  .startBtn {
+    padding-top: 85px;
+  }
+}

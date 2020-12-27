@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.mainHeadingBanner {
+  width: 100vw;
+  height: 160px;
+  background-color: #945f4a;
+}
+
+.mainHeading {
+  padding-top: 50px;
+  margin-left: 5%;
+  font-size: 50px;
+  color: white;
+}
+
+.mainQuestions {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  color: #0384fc;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.buttonsDiv {
+  margin: auto;
+  width: 500px;
+  margin-top: 60px;
+}
+
+.buttons {
+  font-size: 34px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#submitBtn,
+#nextQuestion {
+  font-size: 24px;
+  padding: 15px;
+}
+
+#submitBtn:hover,
+#nextQuestion:hover {
+  cursor: pointer;
+}
+
+#submitBtn:focus,
+#nextQuestion:focus {
+  color: white;
+  background-color: #0384fc;
+  border: 0.5px solid #0384fc;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+
+/*Classes added after submit clicked*/
+.wrongThrough {
+  color: red;
+  text-decoration: red line-through;
+}
+
+.rightThrough {
+  color: green;
+  opacity: 0.3;
+}
+
+.correctHighlight {
+  color: green;
+  background-color: lightgreen;
+  border-radius: 40px;
+}
+
+.dashThrough {
+  color: red;
+  opacity: 0.3;
+}
+
+/*Media Queries*/
+@media (max-width: 800px) {
+  .mainQuestions {
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .buttonsDiv {
+    width: 400px;
+    padding-right: 40px;
+  }
+
+  .buttons {
+    font-size: 26px;
+  }
+
+  #submitBtn,
+  #nextQuestion {
+    padding: 10px;
+    font-size: 22px;
+  }
+}
+
+@media (max-height: 835px) {
+  .mainHeadingBanner {
+    height: 100px;
+  }
+
+  .mainHeading {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  .buttonsDiv {
+    width: 550px;
+  }
+
+  .possibleAnswers {
+    float: left;
+  }
+
+  .submitAndNext {
+    float: right;
+  }
+}

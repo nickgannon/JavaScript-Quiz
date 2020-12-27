@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/pages.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            <div class="mainHeadingBanner"><h1 class="mainHeading">Quiz</h1></div>
+            <h3 class="mainQuestions">Question 4: Solve (4+7)*8/4-3</h3>
+            <div class="buttonsDiv">
+                <div class="possibleAnswers">
+                    <div class="buttons" id="option13">-11 &nbsp;<label><input type="checkbox" id="check13" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option14">8 &nbsp;<label><input type="checkbox" id="check14" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option15">88 &nbsp;<label><input type="checkbox" id="check15" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option16">19 &nbsp;<label><input type="checkbox" id="check16" name="check" onclick="onlyOne(this)"></label></div>
+                </div>
+                <div class="submitAndNext">
+                    <div class="buttons"><input id="submitBtn" type="submit" name="button" onclick="disable4()" value="Submit"/></div>
+                    <a href="/pages/page5.html" class="buttons"><button id="nextQuestion">Next Question</button></a>
+                </div>
+            </div>
+            <script src="/JS/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/pages.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            <div class="mainHeadingBanner"><h1 class="mainHeading">Quiz</h1></div>
+            <h3 class="mainQuestions">Question 3: Who is the richest person in the world?</h3>
+            <div class="buttonsDiv">
+                <div class="possibleAnswers">
+                    <div class="buttons" id="option9">Bill Gates &nbsp;<label><input type="checkbox" id="check9" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option10">Jeff Bezos &nbsp;<label><input type="checkbox" id="check10" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option11">Elon Musk &nbsp;<label><input type="checkbox" id="check11" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option12">Carlos Slim &nbsp;<label><input type="checkbox" id="check12" name="check" onclick="onlyOne(this)"></label></div>
+                </div>
+                <div class="submitAndNext">
+                    <div class="buttons"><input id="submitBtn" type="submit" name="button" onclick="disable3()" value="Submit"/></div>
+                    <a href="/pages/page4.html" class="buttons"><button id="nextQuestion">Next Question</button></a>
+                </div>
+            </div>
+            <script src="/JS/script.js"></script>
+    </body>
+</html>

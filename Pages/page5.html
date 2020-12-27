@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/pages.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            <div class="mainHeadingBanner"><h1 class="mainHeading">Quiz</h1></div>
+            <h3 class="mainQuestions">Question 5: Which country has the highest population?</h3>
+            <div class="buttonsDiv">
+                <div class="possibleAnswers">
+                    <div class="buttons" id="option17">India &nbsp;<label><input type="checkbox" id="check17" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option18">United States &nbsp;<label><input type="checkbox" id="check18" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option19">China &nbsp;<label><input type="checkbox" id="check19" name="check" onclick="onlyOne(this)"></label></div>
+                    <div class="buttons" id="option20">Brazil &nbsp;<label><input type="checkbox" id="check20" name="check" onclick="onlyOne(this)"></label></div>
+                </div>
+                <div class="submitAndNext">
+                    <div class="buttons"><input id="submitBtn" type="submit" name="button" onclick="disable5()" value="Submit"/></div>
+                    <a href="/pages/startPage.html" class="buttons"><button id="nextQuestion">Retake</button></a>
+                </div>
+            </div>
+            <script src="/JS/script.js"></script>
+    </body>
+</html>
