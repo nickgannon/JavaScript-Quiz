@@ -1,4 +1,4 @@
-# Quiz
+# JavaScript-Quiz
 A multiple-choice 5 question quiz implemented and created with HTML, CSS, and JS
 
 <br>
